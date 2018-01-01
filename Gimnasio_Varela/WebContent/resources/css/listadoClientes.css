@@ -1,0 +1,77 @@
+@CHARSET "ISO-8859-1";
+
+#Items {
+    font-family: Arial;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left:5%;
+    border-radius: 5px;
+}
+
+#Items td, #Items th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#Items tr:nth-child(even){background-color: #f2f2f2}
+
+#Items tr:nth-child(odd){background-color: white}
+
+#Items tr:hover {background-color: #ddd;}
+
+#Items th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #CFE0F2;
+    color: black;
+}
+
+#divContenedor{
+	margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 5px;
+	background-color: #2E8AA4;
+	margin-top: 1%;
+	padding-top:12px;
+	padding-bottom:12px;
+}
+
+body {
+	font-size: medium;
+	font-family: Arial;
+	background-color: #CFE0F2;
+	font-size: medium;
+}
+
+h1{
+	margin-left:40%
+}
+
+a:link, a:visited {
+    background-color: #2E8AA4;
+    color: black;
+    padding: 7px 21px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: medium;
+    font-family: Arial;
+    margin-top: 2px;
+    width: 42px;
+}
+
+a:hover, a:active {
+    background-color: white;
+}
+
+#btnVolver {
+	margin-left: 70px;
+	margin-top: 12px;
+}
+
+#btnCerrarSesion{
+	margin-left:85%;
+    width: 110px;
+}

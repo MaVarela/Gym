@@ -1,0 +1,38 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	background-color: #CFE0F2;
+	font-size: medium;
+	font-family: Arial;
+}
+
+a:link, a:visited {
+    background-color: #2E8AA4;
+    color: black;
+    padding: 7px 21px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: medium;
+    font-family: Arial;
+    margin-top: 2px;
+    width: 250px;
+}
+
+a:hover, a:active {
+    background-color: white;
+}
+
+#divContenedor{
+	margin-left: 40%
+}
+
+h1{
+	margin-left:40%
+}
+
+#btnCerrarSesion{
+	margin-left:85%;
+    width: 110px;
+}
