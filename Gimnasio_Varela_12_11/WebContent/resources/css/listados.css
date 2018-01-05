@@ -1,0 +1,161 @@
+@CHARSET "ISO-8859-1";
+
+#Items, #ItemsRegPagos {
+    font-family: Arial;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left:5%;
+    border-radius: 5px;
+}
+
+#ItemsRegPagos{
+	width: 50%;
+    margin-left:25%;
+}
+
+#Items td, #Items th, #ItemsRegPagos td, #ItemsRegPagos th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#Items td input {
+	width: 98%;
+	height:100%;
+	padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+	
+}
+
+#Items tr:nth-child(even), #ItemsRegPagos tr:nth-child(even){background-color: #f2f2f2}
+
+#Items tr:nth-child(odd), #ItemsRegPagos tr:nth-child(odd){background-color: white}
+
+#Items tr:hover, #ItemsRegPagos tr:hover {background-color: #ddd;}
+
+#Items th, #ItemsRegPagos th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #CFE0F2;
+    color: black;
+}
+
+#divContenedor{
+	margin-left: 360px;
+    margin-right: 270px;
+    border-radius: 5px;
+	background-color: #2E8AA4;
+	margin-top: 1%;
+	padding-top:12px;
+	padding-bottom:12px;
+}
+
+#divContenedorClases{
+	margin-left: 220px;
+    margin-right: 160px;
+    border-radius: 5px;
+	background-color: #2E8AA4;
+	margin-top: 1%;
+	padding-top:12px;
+	padding-bottom:12px;
+}
+
+body {
+	font-size: medium;
+	font-family: Arial;
+	background-color: #CFE0F2;
+	font-size: medium;
+}
+
+h1{
+	margin-left:40%
+}
+
+a:link, a:visited, .btnDisabled {
+    background-color: #2E8AA4;
+    color: black;
+    padding: 7px 21px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: medium;
+    font-family: Arial;
+    margin-top: 2px;
+    width: 42px;
+}
+
+#btnGuardar {
+	background-color: #CFE0F2;
+    border: none;
+    color: black;
+    padding: 7px 19px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: medium;
+	font-family: Arial;
+	margin-left: 5%;
+}
+
+a:hover, a:active {
+    background-color: white;
+}
+
+#btnVolver {
+	margin-left: 360px;
+	margin-top: 12px;
+}
+
+#btnVolverClases {
+	margin-left: 220px;
+	margin-top: 12px;
+}
+
+#btnCerrarSesion{
+	margin-left:85%;
+    width: 110px;
+}
+
+.mensajeInfo{
+	margin-left: 45%;
+}
+
+.mensajeError{
+	margin-left: 24%;
+}
+
+.cntInfo{
+	margin-left: 360px;
+    margin-right: 270px;
+	border-radius: 5px;
+	background-color: #F7FDC9;
+	padding-top: 12px;
+	height: 30px;
+}
+
+.cntInfoOculto{
+	display: none;
+	margin-left: 360px;
+    margin-right: 270px;
+	border-radius: 5px;
+	background-color: #F7FDC9;
+}
+
+#btnRegistrarPago{
+	width: 120px;
+}
+
+#btnListarInscripciones{
+	width: 140px;
+}
+
+#btnAnotarSocio{
+	width: 92px;
+}
+
+#btnLiberarCupos{
+	width: 102px;
+}

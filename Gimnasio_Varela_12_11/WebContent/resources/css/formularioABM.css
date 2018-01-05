@@ -1,0 +1,115 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	background-color: #CFE0F2;
+	font-size: medium;
+	font-family: Arial;
+}
+
+a:link, a:visited {
+    background-color: #2E8AA4;
+    color: black;
+    padding: 7px 21px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: medium;
+    font-family: Arial;
+}
+
+a:hover, a:active {
+    background-color: white;
+}
+
+#btnVolver {
+	margin-left: 360px;
+	margin-top: 12px;
+}
+
+#lblTitulo {
+	margin-left: 45%;
+}
+
+input{
+	border-radius: 5px;
+}
+
+.mensajeInfo{
+	margin-left: 45%;
+}
+
+.mensajeError{
+	margin-left: 24%;
+}
+
+.lblError{
+	width: 550px;
+}
+
+.readOnly{
+	background: #F7FDC9;
+}
+
+#divContenedor{
+	margin-left: 360px;
+    margin-right: 270px;
+	border-radius: 5px;
+	padding: 10px;
+	padding-left:20px;
+	background-color: #2E8AA4;
+	margin-top: 1%;
+}
+
+#divContenedorLogin{
+	margin-left: 400px;
+    margin-right: 400px;
+	border-radius: 5px;
+	padding: 20px;
+	padding-left:90px;
+	background-color: #2E8AA4;
+	margin-top: 1%;
+}
+
+.cntInfo{
+	margin-left: 360px;
+    margin-right: 270px;
+	border-radius: 5px;
+	background-color: #F7FDC9;
+	padding-top: 12px;
+	height: 30px;
+}
+
+.cntInfoOculto{
+	display: none;
+	margin-left: 360px;
+    margin-right: 270px;
+	border-radius: 5px;
+	background-color: #F7FDC9;
+}
+
+input[type=submit]{
+    background-color: #CFE0F2;
+    border: none;
+    color: black;
+    padding: 7px 19px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: medium;
+	font-family: Arial;
+}
+
+input[type=text]{
+    height: 24px;
+    width: 240px;
+}
+
+input[type=submit]:hover{
+    background-color: white;
+}
+
+#btnCerrarSesion{
+	margin-left:85%;
+    width: 110px;
+}
